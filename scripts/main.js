@@ -40,9 +40,6 @@ const buttonFilter = (event) => {
   if(event.target.id.includes('clearFilter')) {
     console.log('clearFilter')
   }
-  if(event.target.id.includes('cartList')) {
-    cartList();
-  }
   if(event.target.id.includes('productList')) {
     let table = `<table class="table table-dark table-striped" style="width: 600px">
     <thead>
